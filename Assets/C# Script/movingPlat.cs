@@ -1,0 +1,46 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEditor;
+using UnityEngine;
+
+public class movingPlat : MonoBehaviour
+{
+    public Transform platForm;
+    public Transform startPoint;
+    public Transform endPoint;
+    public float speed = 0.5f;
+    int direction = 1;
+
+    private void Update()
+    {
+        Vector2 target = currentMovementTarget();
+        platForm.position = Vector2.Lerp(platForm.position,target, speed * Time.deltaTime);
+
+        float distance = (target - (Vector2)platForm.position).sqrMagnitude;
+
+        if(distance <= 0.1f)
+        {
+            direction *= -1;
+        }
+    }
+
+    Vector2 currentMovementTarget()
+    {
+        if(direction ==1)
+        {
+            return startPoint.position;
+        } else
+        {
+            return endPoint.position;
+        }
+    }
+
+    private void OnDrawGizmos()
+    {
+        if(platForm != null && startPoint != null && endPoint != null)
+        {
+            Gizmos.DrawLine(platForm.transform.position, startPoint.position);
+            Gizmos.DrawLine(platForm.transform.position, endPoint.position);
+        }
+    }
+}
