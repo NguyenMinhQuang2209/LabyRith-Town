@@ -992,7 +992,7 @@ MonoBehaviour:
   prevBtn: {fileID: 2030725124}
   plotTxt: {fileID: 71755099}
   items:
-  - bgSprite: {fileID: 21300000, guid: df054239825f55443acdeb943b5d41bc, type: 3}
+  - bgSprite: {fileID: 21300000, guid: b05c88882fae3f34ab54df4594eb570a, type: 3}
     keyboardString: 
     keyboardSprite: {fileID: 0}
     keyboardSize: {x: 90, y: 90}
@@ -1015,19 +1015,6 @@ MonoBehaviour:
       m\u1EB7t v\u1EDBi c\xE1c qu\xE1i v\u1EADt nguy hi\u1EC3m. Tr\xEAn h\xE0nh tr\xECnh
       n\xE0y, ng\u01B0\u1EDDi con nh\u1EADn \u0111\u01B0\u1EE3c s\u1EF1 gi\xFAp \u0111\u1EE1
       t\u1EEB m\u1ED9t s\u1ED1 d\xE2n l\xE0ng."
-  - bgSprite: {fileID: 21300000, guid: b05c88882fae3f34ab54df4594eb570a, type: 3}
-    keyboardString: 
-    keyboardSprite: {fileID: 0}
-    keyboardSize: {x: 90, y: 90}
-    plotString: "D\u1EA7n d\u1EA7n, ng\u01B0\u1EDDi con kh\xE1m ph\xE1 ra r\u1EB1ng
-      th\u1ECB tr\u1EA5n n\xE0y th\u1EF1c ch\u1EA5t l\xE0 tr\u1EE5 s\u1EDF c\u1EE7a
-      m\u1ED9t t\u1ED5 ch\u1EE9c t\xF4n gi\xE1o t\xE0 \xE1c mang t\xEAn LabyRith.
-      B\xEAn d\u01B0\u1EDBi th\u1ECB tr\u1EA5n, c\xF3 nhi\u1EC1u b\xED m\u1EADt \u0111en
-      t\u1ED1i h\u01A1n m\xE0 ng\u01B0\u1EDDi con ph\u1EA3i kh\xE1m ph\xE1. Trong
-      qu\xE1 tr\xECnh n\xE0y, c\xF3 m\u1ED9t s\u1EF1 ph\xE1t tri\u1EC3n b\u1EA5t
-      ng\u1EDD: ng\u01B0\u1EDDi b\u1ED1 c\u1EE7a ng\u01B0\u1EDDi con \u0111\u01B0\u1EE3c
-      ti\u1EBFt l\u1ED9 c\xF3 li\xEAn quan m\u1EADt thi\u1EBFt \u0111\u1EBFn t\u1ED5
-      ch\u1EE9c n\xE0y."
   - bgSprite: {fileID: 21300000, guid: b05c88882fae3f34ab54df4594eb570a, type: 3}
     keyboardString: 
     keyboardSprite: {fileID: 0}
@@ -1098,6 +1085,11 @@ MonoBehaviour:
   - bgSprite: {fileID: 21300000, guid: b05c88882fae3f34ab54df4594eb570a, type: 3}
     keyboardString: Press D to move to the right
     keyboardSprite: {fileID: 21300000, guid: 1bbe9583dd563fe40a83909f73e86397, type: 3}
+    keyboardSize: {x: 90, y: 90}
+    plotString: 
+  - bgSprite: {fileID: 21300000, guid: 0b94acf2977b64745aabe6d91f22e2d5, type: 3}
+    keyboardString: Press Z to attack
+    keyboardSprite: {fileID: 21300000, guid: aea5271babf3ec6499d11e722f6dbeb3, type: 3}
     keyboardSize: {x: 90, y: 90}
     plotString: 
 --- !u!4 &425784190

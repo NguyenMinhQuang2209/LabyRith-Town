@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EndGame : MonoBehaviour
 {
@@ -26,5 +27,9 @@ public class EndGame : MonoBehaviour
         {
             player.transform.position = new(player.transform.position.x + MoveSpeed * Time.deltaTime, player.transform.position.y, player.transform.position.z);
         }
+    }
+    public void PlayAgain()
+    {
+        SceneManager.LoadScene(0);
     }
 }
