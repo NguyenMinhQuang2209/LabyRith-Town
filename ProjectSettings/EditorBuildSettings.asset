@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/karsiori/Scenes/SampleScene.unity
+    path: Assets/Scenes/Demoscene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Chap01/MainScene01.unity
@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Chap01/MyHouse.unity
     guid: ca7898bae4e400d44ac6cfe1f1db7d0b
+  - enabled: 1
+    path: Assets/Scenes/EndGame/EndGame.unity
+    guid: 600f24bd06a905b48b93be582855b992
   m_configObjects: {}
